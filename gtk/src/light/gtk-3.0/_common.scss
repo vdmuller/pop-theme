@@ -13,7 +13,7 @@ $popover_radius: $button_radius;
 
 // Optional compact sizes for buttons, headerbar and headerbar widgets
 $_sizevariant: 'default'; //compact otherwise
-$_headerbar_height: if($_sizevariant=='default', 46px, 40px);
+$_headerbar_height: if($_sizevariant=='default', 42px, 40px);
 $_entry_height: if($_sizevariant=='default', 32px, 28px);
 $_btn_pad: if($_sizevariant=='default', 4px 9px, 2px 6px);
 $_hb_btn_pad: if($_sizevariant=='default', 6px, 5px);
@@ -1575,7 +1575,7 @@ headerbar {
   border-color: $alt_borders_color;
   border-radius: 0;
 
-  @include headerbar_fill(darken($bg_color, 10%));
+  @include headerbar_fill(darken($bg_color, 10%), lighten($borders_color, 10%));
 
   &:backdrop {
     border-color: $backdrop_borders_color;
@@ -1770,7 +1770,7 @@ headerbar {
   
 
   
-  separator.titlebutton { opacity: 0; } /* hide the close button separator */
+  separator.titlebutton { opacity: 100; } /* hide the close button separator */
 
   .solid-csd & {
     &:backdrop, & {

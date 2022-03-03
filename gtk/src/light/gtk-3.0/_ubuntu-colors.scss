@@ -11,7 +11,7 @@ $silk: #CCC;
 $ash: #878787;
 
 // Utility
-$red: if($variant=='light', #E56A54, #EA9090);
+$red: if($variant=='light', #E56A54, #E46060);
 $orange: if($variant=='light', #FFAD00, #FBB86C);
 $yellow: if($variant=='light', #FEDB40, #F9D87A);
 $green: if($variant=='light', #82BF8C, #90CFB0);
@@ -25,7 +25,7 @@ $terminal_fg_color: white;
 $terminal_borders_color: darken($terminal_bg_color, 10%);
 
 // Widget Colors
-$headerbar_bg_color: if($variant == 'light', #574F4A, #363636);;
+$headerbar_bg_color: if($variant == 'light', #574F4A, #292929);;
 $menubar_bg_color: $headerbar_bg_color;
 $headerbar_fg_color: $porcelain;
 $headerbar_border_color: lighten($headerbar_bg_color, 8%);
