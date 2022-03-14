@@ -3,10 +3,10 @@
 
 @import 'pop_os-colors';
 
-$base_color: if($variant == 'light', #ffffff, #272727); 
-$text_color: if($variant == 'light', #272727, #cccccc);
-$bg_color: if($variant == 'light', #F6F6F6, #303030);
-$fg_color: if($variant == 'light', #292929, #cccccc);
+$base_color: if($variant == 'light', #ffffff, #272728); 
+$text_color: if($variant == 'light', #272727, #D2D2D2);
+$bg_color: if($variant == 'light', #F6F6F6, #303033);
+$fg_color: if($variant == 'light', #292929, #D2D2D2);
 
 $selected_fg_color: #000;
 $selected_bg_color: if($variant=='light', #48b9c7, #94EBEB);
@@ -19,7 +19,7 @@ $link_color: $text_blue;
 $link_visited_color: $text_orange;
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
-$headerbar_color: if($variant == 'light', #574F4A, #292929);
+$headerbar_color: if($variant == 'light', #574F4A, #29292B);
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);

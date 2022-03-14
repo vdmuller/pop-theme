@@ -97,16 +97,18 @@ list.tweak-categories separator {
   &:backdrop { background-color: $backdrop_base_color }
 
   .path-bar-box {
-    $_headerbar_button_bg: darken($headerbar_bg_color, 2%);
+    //$_headerbar_button_bg: darken($headerbar_bg_color, 2%);
+    $_headerbar_button_bg: darken($headerbar_bg_color, 3%);
     $_btn_backdrop_border: darken($headerbar_border_color, 3%);
-    border: 1px solid;
+    //border: 1px solid;
+    border: transparent;
     border-radius: $button_radius;
     transition: all 200ms $ease-out-quad;
     @include button(normal, $_headerbar_button_bg, $headerbar_fg_color);
     
     &:backdrop {
       @include button(backdrop, $backdrop_headerbar_bg_color, $backdrop_headerbar_fg_color);
-      border-color: $_btn_backdrop_border;
+      //border-color: $_btn_backdrop_border;
     }
   }
   
