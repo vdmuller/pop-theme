@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"term",
+				"Terminal: Open in project folder"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"schem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: git",
+				"Package Control: List Packages"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"bash",
+				"Set Syntax: Bash"
+			],
+			[
+				"setsy",
+				"Set Syntax: SQL"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_common.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-colors.scss",
+		"/home/vdmuller/linux/gdm.sh",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_colors.scss",
+		"/home/vdmuller/Área de Trabalho/rac.txt",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_tweaks.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_drawing.scss",
+		"/home/vdmuller/Temas/Canta-theme/src/_sass/_color-palette.scss",
+		"/home/vdmuller/Temas/Canta-theme/src/_sass/_colors.scss",
+		"/home/vdmuller/Temas/Canta-theme/src/_sass/gtk/_common-3.0.scss",
+		"/home/vdmuller/Temas/Canta-theme/src/_sass/gtk/_colors-public.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_apps.scss",
+		"/home/vdmuller/Temas/Colloid-original/src/sass/_color-palette-default.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_color-palette-default.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_colors.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/_common-3.0.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_tweaks.scss",
+		"/home/vdmuller/.local/share/applications/dbeaver-ce.desktop",
+		"/home/vdmuller/.local/share/applications/spring-tool-suite.desktop",
+		"/home/vdmuller/.local/share/applications/eclipse.desktop",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-drawing.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_ubuntu-colors.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/build.sh",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/apps/_gnome-3.0.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_drawing.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_common.scss",
+		"/home/vdmuller/Desenvolvimento/git/recuperagov/cobrancas/.gitignore",
+		"/home/vdmuller/Downloads/arquitetura-recupera-gov.drawio",
+		"/home/vdmuller/Desenvolvimento/spring/toolsuite/SpringToolSuite4.ini",
+		"/home/vdmuller/Desenvolvimento/git/recuperagov/cobrancas/.project",
+		"/home/vdmuller/Desenvolvimento/maven/apache-maven/README.txt",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_variables.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/_drawing-3.0.scss",
+		"/home/vdmuller/linux/include.sh",
+		"/home/vdmuller/linux/desenvolvimento/desenvolvimento.sh",
+		"/home/vdmuller/linux/setup.sh",
+		"/home/vdmuller/linux/desenvolvimento/docker.sh",
+		"/home/vdmuller/Temas/adw-gtk3/gtk/src/adw-gtk3/gtk-3.0/_colors.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_colors.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/apps/_gnome-4.0.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/apps/_nemo.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_tweaks-temp.scss",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/install.sh",
+		"/home/vdmuller/Temas/Colloid-original/src/sass/gtk/_drawing-3.0.scss",
+		"/home/vdmuller/Temas/Colloid-original/src/sass/gtk/_common-3.0.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/apps/_nautilus.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_tweaks.scss",
+		"/home/vdmuller/Temas/Colloid-original/src/sass/_tweaks.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_palette.scss",
+		"/home/vdmuller/Temas/yaru/meson_options.txt",
+		"/home/vdmuller/Temas/yaru/gtk/meson.build",
+		"/home/vdmuller/Temas/yaru/gtk/src/meson.build",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/install.sh",
+		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/_color-palette-nord.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_common-3.20.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/_color-palette.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/_colors.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_colors-public.scss",
+		"/home/vdmuller/.local/share/applications/_home_vdmuller_Desenvolvimento_spring_toolsuite_.desktop",
+		"/home/vdmuller/.local/share/applications/_home_vdmuller_Desenvolvimento_spring_sts-4.13.1.RELEASE_.desktop",
+		"/home/vdmuller/Temas/yaru/gtk/src/mod-dark/render-assets.sh",
+		"/home/vdmuller/Temas/yaru/gtk/src/default/gtk-3.0/_colors-public.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/dark/gtk-3.0/install-dark-theme.sh",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/gtk-dark.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/dark/gtk-3.0/gtk-dark.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/dark/gtk-3.0/_palette.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/dark/gtk-3.0/_colors.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/_tweaks.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/_tweaks-temp.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/_variables.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/upstream/gtk+3.0/Adwaita/_colors.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_drawing-3.20.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/mod/gtk-3.0/_palette.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/mod/gtk-3.0/_colors-public.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/mod/gtk-3.0/_colors.scss",
+		"/home/vdmuller/Temas/yaru/gtk/src/mod-dark/gtk-3.0/apps/_nautilus.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/apps/_misc.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/apps/_gnome-3.22.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_buttons.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_dash.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_color-palette.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_panel.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_misc.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_app-grid.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_colors.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_colors-public.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_apps-3.22.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/dash-to-dock/_dash-to-dock.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_variables.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_drawing-4.0.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/_common-4.0.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/_sass/gtk/apps/_gnome-40.0.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_base.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_corner-ripple.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gtk/3.0/gtk-light-compact.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gtk/3.0/gtk-dark-compact.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gtk/3.0/gtk-dark.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gtk/3.0/gtk.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gtk/3.0/gtk-compact.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_overview.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/widgets/_calendar.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_widgets.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_tweaks.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_common-40-0.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/src/gnome-shell/sass/_drawing.scss",
+		"/home/vdmuller/Temas/Fluent-gtk-theme/parse-sass.sh",
+		"/home/vdmuller/gtk-theme/gtk/src/dark/gtk-3.0/install-dark-theme.sh",
+		"/home/vdmuller/Desenvolvimento/jboss/jboss-eap-6.4-sid/standalone/configuration/standalone.xml",
+		"/home/vdmuller/Downloads/main.py",
+		"/home/vdmuller/linux/serpro/serpro.sh",
+		"/home/vdmuller/Applications/foxitsoftware/foxitreader/Uninstall.desktop",
+		"/home/vdmuller/.local/share/applications/FoxitReader.desktop",
+		"/usr/share/applications/geany.desktop",
+		"/usr/share/applications/google-chrome.desktop",
+		"/home/vdmuller/standalone.xml",
+		"/home/vdmuller/banco.sh",
+		"/home/vdmuller/.icons/Material-2-Originals-blue/index.theme",
+		"/home/vdmuller/Desenvolvimento/jboss/jboss-eap-6.4-sid/standalone/configuration/standalone.xml_schwaab",
+		"/home/vdmuller/Desenvolvimento/jboss/jboss-eap-6.4-sid/standalone/configuration/standalone.xml_banco_cd",
+		"/home/vdmuller/Desenvolvimento/jboss/jboss-eap-6.4-sid/standalone/log/hibernate-sql.log",
+		"/usr/share/applications/dbeaver-ce.desktop"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gtkalpha",
+			"headerbar",
+			"$_headerbar_height",
+			"headerbar",
+			"box-shadow",
+			"switch",
+			"headerbar",
+			"border-bottom-color",
+			"button",
+			"border-bottom-color",
+			"button",
+			"@button",
+			"headerbar",
+			"separator",
+			"opacity",
+			"headerbar",
+			"yaru_headerbar_fill",
+			"header",
+			"$button_radius",
+			"stackswitcher",
+			"headerbar",
+			"mixin button(",
+			"button(",
+			"yaru_headerbar_fill",
+			"$headerbar_color",
+			"headerbar_color",
+			"background: $c $gradient;",
+			"headerbar_color",
+			"$headerbar_color",
+			"yaru_headerbar_fill",
+			"headerbar",
+			"button",
+			"file",
+			"decoration",
+			"$window_radius",
+			"$window_radius:",
+			"radius",
+			"button",
+			"rimless",
+			"headerbar_fill",
+			"highlight($surface)",
+			"$surface",
+			"rimless",
+			"headerbar",
+			"rimless",
+			"divider",
+			"//",
+			"$window_r",
+			"csd",
+			"csd {",
+			"csd",
+			"radius:",
+			"radius",
+			"$window_radius",
+			"$window-radius",
+			"scrolledwindow",
+			"$window-radius",
+			"$window_radius",
+			"border-radius: $window_radius",
+			"csd",
+			"$window-radius",
+			"border-radius: $window-radius",
+			"window {",
+			"box {",
+			"box",
+			"decoration",
+			"$corner-radius",
+			"border-top-left-radius",
+			"$window_radius",
+			"button",
+			"buton",
+			"headerbar",
+			"header",
+			"check",
+			"'round'",
+			"$menu",
+			"2b2b",
+			"menu",
+			"menu separator",
+			"_dark_theme_outer_menu_border",
+			"notebook > header",
+			"notebook",
+			"background-color",
+			"entry_focus_border",
+			"FBB86C",
+			"switch",
+			"switchbuttons",
+			"toggl",
+			"check",
+			"button",
+			"_close_button_color",
+			"close",
+			"_close_button_color",
+			"close",
+			"rgb(255, 255 ,255);",
+			"close",
+			"button",
+			"headerbar",
+			"header",
+			"close",
+			"Close",
+			"close",
+			"maximi",
+			"close",
+			"button",
+			"buttons",
+			"borders_color",
+			"borders",
+			"@mixin button",
+			"mixin button",
+			"@mixin button",
+			"button",
+			"yaru_headerbar_fill",
+			"f(",
+			"'$top_hilight'",
+			"$top_hilight",
+			"headerbar_fill",
+			"$top_hilight",
+			"headerbar_fill",
+			"$headerbar_bg_color",
+			"title",
+			"header",
+			"title",
+			"header",
+			"button",
+			"background",
+			"button",
+			"divider"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Temas/yaru/yaru.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

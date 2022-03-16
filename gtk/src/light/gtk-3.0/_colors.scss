@@ -5,7 +5,7 @@
 
 $base_color: if($variant == 'light', #ffffff, #272728); 
 $text_color: if($variant == 'light', #272727, #D2D2D2);
-$bg_color: if($variant == 'light', #F6F6F6, #303033);
+$bg_color: if($variant == 'light', #F6F6F6, #303032);
 $fg_color: if($variant == 'light', #292929, #D2D2D2);
 
 $selected_fg_color: #000;
@@ -19,7 +19,9 @@ $link_color: $text_blue;
 $link_visited_color: $text_orange;
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
-$headerbar_color: if($variant == 'light', #574F4A, #29292B);
+$headerbar_color: if($variant == 'light', #574F4A, #262628);
+$headerbar_border: if($variant == 'light', #574F4A, #222223);
+$headerbar_shadow: if($variant == 'light', #574F4A, #171717);
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
