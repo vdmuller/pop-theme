@@ -251,6 +251,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"headerbar",
 			"gtkalpha",
 			"headerbar",
 			"$_headerbar_height",
@@ -377,8 +378,7 @@
 			"header",
 			"button",
 			"background",
-			"button",
-			"divider"
+			"button"
 		],
 		"highlight": true,
 		"in_selection": false,
