@@ -278,10 +278,10 @@ headerbar,
 
   // Also include backdrop styling, because they turn white in :backdrop
   separator {
-    background: image(darken($headerbar_bg_color, 3%));
+    background-color: $headerbar_bg_color;
 
     &:backdrop {
-      background: image(darken($headerbar_bg_color, 1%));
+      background-color: $headerbar_bg_color;
     }
   }
 

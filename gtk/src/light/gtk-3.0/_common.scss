@@ -1775,7 +1775,7 @@ headerbar {
   
   separator { 
     &.titlebutton, &.vertical {
-      opacity: 0; 
+      background-color: $headerbar_color; 
     }
   } /* hide the close button separator */
 

@@ -251,6 +251,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"separator",
 			"headerbar",
 			"gtkalpha",
 			"headerbar",
@@ -377,8 +378,7 @@
 			"title",
 			"header",
 			"button",
-			"background",
-			"button"
+			"background"
 		],
 		"highlight": true,
 		"in_selection": false,
