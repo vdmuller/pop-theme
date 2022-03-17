@@ -19,7 +19,7 @@ $link_color: $text_blue;
 $link_visited_color: $text_orange;
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
-$headerbar_color: if($variant == 'light', #574F4A, #262628);
+$headerbar_color: if($variant == 'light', #574F4A, #242425);
 $headerbar_border: if($variant == 'light', #574F4A, #222223);
 $headerbar_shadow: if($variant == 'light', #574F4A, #171717);
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));

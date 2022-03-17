@@ -237,7 +237,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -251,6 +251,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"headerbar",
+			"frame",
 			"separator",
 			"headerbar",
 			"gtkalpha",
@@ -376,9 +378,7 @@
 			"title",
 			"header",
 			"title",
-			"header",
-			"button",
-			"background"
+			"header"
 		],
 		"highlight": true,
 		"in_selection": false,

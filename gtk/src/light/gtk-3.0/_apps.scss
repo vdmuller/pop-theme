@@ -98,8 +98,8 @@ list.tweak-categories separator {
 
   .path-bar-box {
     //$_headerbar_button_bg: darken($headerbar_bg_color, 2%);
-    $_headerbar_button_bg: darken($headerbar_bg_color, 5%);
-    $_btn_backdrop_border: darken($headerbar_border_color, 5%);
+    $_headerbar_button_bg: darken($headerbar_bg_color, 4%);
+    $_btn_backdrop_border: darken($headerbar_border_color, 4%);
     //border: 1px solid;
     border: transparent;
     border-radius: $button_radius;
