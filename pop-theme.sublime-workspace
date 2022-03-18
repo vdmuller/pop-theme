@@ -17,6 +17,18 @@
 		"selected_items":
 		[
 			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
 				"term",
 				"Terminal: Open in project folder"
 			],
@@ -58,10 +70,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"git",
 				"Package Control: Install Package"
 			],
 			[
@@ -237,7 +245,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -251,6 +259,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yaru_headerbar_fill",
+			"top_hilight",
 			"headerbar",
 			"frame",
 			"separator",
@@ -375,8 +385,6 @@
 			"$top_hilight",
 			"headerbar_fill",
 			"$headerbar_bg_color",
-			"title",
-			"header",
 			"title",
 			"header"
 		],
