@@ -1,8 +1,9 @@
 @import 'ubuntu-colors';
 
-$small_radius: 4px;
+$small_radius: 8px;
 $_headerbar_button_bg: lighten($headerbar_bg_color, 4%);
-$_dark_border_color: rgb(20, 19, 19);;
+$_dark_border_color: rgb(20, 19, 19);
+$_headerbar_button_radius: 8px;
 
 // copied from drawing, modified the gradients here to have less diff in drawing
 @mixin yaru_headerbar_fill($c:$headerbar_color, $hc:$top_hilight, $ov: none) {
@@ -96,6 +97,7 @@ headerbar,
     border: none;
     background-color: transparent;
     background-image: none;
+    border-radius: $_headerbar_button_radius;
 
     &.flat {
       @include button(undecorated);
@@ -112,7 +114,7 @@ headerbar,
       $_bg: lighten($headerbar_bg_color, if($variant==light, 0%, 1%));
       @include button(active, $_bg, $headerbar_fg_color);
       border-color: rgb(20, 19, 19);
-      background-image: image(darken($_bg, 9%));
+      background-image: image(darken($_bg, 4%));
     }
 
     &:backdrop {
@@ -123,6 +125,8 @@ headerbar,
 
         -gtk-icon-effect: none;
         border-color: $_btn_backdrop_border;
+        background-color: transparent;
+    background-image: none;
 
         &:active,
         &:checked {
@@ -251,9 +255,10 @@ headerbar,
   }
 
   stackswitcher {
-    background-color: lighten($headerbar_bg_color, 5%);
-    border-radius: $button_radius;
-    margin: 4px;
+    background-color: lighten($headerbar_bg_color, 7%);
+    border-radius: $_headerbar_button_radius;
+    margin: 2px;
+    border: 1px solid darken($headerbar_bg_color, 1%);
   }
 
 

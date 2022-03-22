@@ -47,7 +47,7 @@
 
   @if $t==normal {
     color: $text_color;
-    border-color: $borders_color;
+    border-color: $button_borders_color;
     background-color: $base_color;
     @include _shadows(entry_focus_shadow(transparentize($fc, 1)), $_entry_edge);
     // for the transition to work the number of shadows in different states needs to match, hence the transparent shadow here.
@@ -58,7 +58,7 @@
   }
   @if $t==insensitive {
     color: $insensitive_fg_color;
-    border-color: $borders_color;
+    border-color: $button_borders_color;
     background-color: $insensitive_bg_color;
     box-shadow: $_entry_edge;
   }
@@ -195,7 +195,7 @@
   //
     color: $tc;
     outline-color: transparentize($tc, 0.7);
-    border-color: if($c != $bg_color, _border_color($c), $borders_color);
+    border-color: if($c != $bg_color, _border_color($c), $button_borders_color);
     //border-bottom-color: if($c != $bg_color, _border_color($c), $alt_borders_color);
     $button_fill: if($c == $bg_color, if($variant == 'light', image(lighten($c, 2%)), image(lighten($c, 4%))), image(lighten($c, 2%)));
     background-image: $button_fill;
@@ -210,7 +210,7 @@
   //
     color: $tc;
     outline-color: $focus_border_color; // Yaru change: we detached focus from selection
-    border-color: if($c != $bg_color, _border_color($c), $borders_color);
+    border-color: if($c != $bg_color, _border_color($c), $button_borders_color);
     border-bottom-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
     @if $variant == 'light' {
       $button_fill: linear-gradient(to top, $c, lighten($c, 1%) 1px) !global;
@@ -223,7 +223,7 @@
       @include _shadows(inset 0 1px _button_hilight_color(darken($c, 2%)), $_button_edge, $_button_shadow);
     }
     box-shadow: none; // Yaru change: remove shadow
-    background-image: if($c == $bg_color, if($variant == 'light', image(darken($c, 2%)), image(lighten($c, 6%))), image(lighten($c, 4%))); // Yaru change: darker bg on hover on light theme
+    background-image: if($c == $bg_color, if($variant == 'light', image(darken($c, 2%)), image(lighten($c, 10%))), image(lighten($c, 6%))); // Yaru change: darker bg on hover on light theme
   }
 
   @if $t==normal-alt {
@@ -271,7 +271,7 @@
   //
     color: $tc;
     outline-color: $focus_border_color; // Yaru change: we detached focus from selection
-    border-color: if($c != $bg_color, _border_color($c), $borders_color);
+    border-color: if($c != $bg_color, _border_color($c), $button_borders_color);
     $button_fill: if($variant == 'light', image(darken($c, 14%)), image(darken($c, 9%))) !global;
     background-image: $button_fill;
     @include _shadows(inset 0 1px transparentize($_hilight_color, 1), $_button_edge);
@@ -533,7 +533,7 @@
   $_big_gradient_color: $c;
 
   @if $c==$fg_color {
-    $_small_gradient_color: darken($borders_color, 10%);
+    $_small_gradient_color: darken($button_borders_color, 10%);
     $_big_gradient_color: $fg_color;
 
     @if $t==backdrop { $_small_gradient_color: $backdrop_borders_color; }
