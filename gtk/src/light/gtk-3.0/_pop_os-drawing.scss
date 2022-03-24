@@ -321,7 +321,7 @@
     $_bc: if($variant == 'light', $c, _border_color($c));
 
     color: if($tc != $fg_color, mix($tc, $_bg, 80%), $backdrop_fg_color);
-    border-color: if($c != $bg_color, $_bc, $backdrop_borders_color);
+    border-color: if($c != $bg_color, $_bc, $button_borders_color);
     $button_fill: image($_bg) !global;
     background-image: $button_fill;
     text-shadow: none;
