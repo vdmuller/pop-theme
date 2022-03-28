@@ -6,7 +6,7 @@ $_dark_border_color: rgb(20, 19, 19);
 $_headerbar_button_radius: 8px;
 
 // copied from drawing, modified the gradients here to have less diff in drawing
-@mixin yaru_headerbar_fill($c:$headerbar_color, $hc:$top_hilight, $ov: none) {
+@mixin yaru_headerbar_fill($c:$headerbar_color, $hc:$headerbar_border_color, $ov: none) {
   background: $c;
 
   $border_color: $hc;
@@ -14,7 +14,7 @@ $_headerbar_button_radius: 8px;
   border-color: $border_color;
   border-bottom-width: 1px;
   border-bottom-color: $border_color;
-  box-shadow: 0px 2px 3px -3px $headerbar_shadow, inset 0 1px $border_color;
+  box-shadow: 0px 2px 3px -4px $headerbar_shadow, inset 0 1px $headerbar_top_border_color;
 }
 
 // helper mixin for the yaru titlebuttons

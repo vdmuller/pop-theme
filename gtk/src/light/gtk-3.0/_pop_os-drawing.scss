@@ -479,7 +479,7 @@
   }
 }
 
-@mixin headerbar_fill($c:$headerbar_color, $hc:$top_hilight, $ov: none) {
+@mixin headerbar_fill($c:$headerbar_color, $hc:$headerbar_border, $ov: none) {
   background: $c;
 
   $border_color: $hc;
@@ -487,7 +487,7 @@
   border-color: $border_color;
   border-bottom-width: 1px;
   border-bottom-color: $border_color;
-  box-shadow: 0px 2px 3px -3px $headerbar_shadow, inset 0 1px $border_color;
+  box-shadow: 0px 2px 3px -4px $headerbar_shadow, inset 0 1px $headerbar_top_border_color;
 }
 
 @mixin overshoot($p, $t:normal, $c:$fg_color) {

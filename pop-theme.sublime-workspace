@@ -25,6 +25,18 @@
 		"selected_items":
 		[
 			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
+			],
+			[
+				"git",
+				"Git: Reset (hard) HEAD"
+			],
+			[
 				"status",
 				"Git: Status"
 			],
@@ -35,10 +47,6 @@
 			[
 				"te",
 				"Terminal: Open in project folder"
-			],
-			[
-				"git",
-				"Git: Push"
 			],
 			[
 				"git c",
@@ -59,14 +67,6 @@
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"diff",
-				"Git: Diff Current File"
-			],
-			[
-				"dif",
-				"Git: Diff Current File"
 			],
 			[
 				"git di",
@@ -141,12 +141,12 @@
 	},
 	"file_history":
 	[
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-colors.scss",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-2.0/assets-external.txt",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-4.0/_colors.scss",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/gtk.css",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/gtk-dark.css",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_common.scss",
-		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-colors.scss",
 		"/home/vdmuller/linux/gdm.sh",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_colors.scss",
 		"/home/vdmuller/Área de Trabalho/rac.txt",
@@ -277,6 +277,8 @@
 		"where_history":
 		[
 			"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0",
+			"/home/vdmuller/Temas/pop-theme/gtk/src",
+			"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0",
 			"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/*.scss",
 			"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0"
 		]
@@ -286,6 +288,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yaru_headerbar_fill",
+			"headerbar_fill",
+			"top_hilight",
+			"0px 3px 2px -4px #171717,",
+			"headerbar_fill",
+			"meson.project",
 			"$backdrop_borders_color",
 			"$backdrop_borders_color\n",
 			"$backdrop_borders_color",
@@ -407,13 +415,7 @@
 			"menu",
 			"menu separator",
 			"_dark_theme_outer_menu_border",
-			"notebook > header",
-			"notebook",
-			"background-color",
-			"entry_focus_border",
-			"FBB86C",
-			"switch",
-			"switchbuttons"
+			"notebook > header"
 		],
 		"highlight": true,
 		"in_selection": false,

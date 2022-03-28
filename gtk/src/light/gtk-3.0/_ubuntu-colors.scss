@@ -29,7 +29,8 @@ $headerbar_bg_color: if($variant == 'light', #574F4A, #232325);
 $menubar_bg_color: $headerbar_bg_color;
 $headerbar_fg_color: $porcelain;
 $headerbar_border_color: #222222;
-$headerbar_shadow: #1C1C1C;
+$headerbar_top_border_color: #272729;
+$headerbar_shadow: #1A1A1A;
 $headerbar_text_color: $silk;
 $headerbar_insensitive_color: mix($headerbar_fg_color, $headerbar_bg_color, 50%);
 //
