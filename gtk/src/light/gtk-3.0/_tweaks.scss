@@ -259,6 +259,10 @@ headerbar,
     border-radius: $_headerbar_button_radius;
     margin: 2px;
     border: 1px solid darken($headerbar_bg_color, 1%);
+
+    button {
+      margin: 0px;
+    }
   }
 
 
@@ -513,8 +517,8 @@ button.titlebutton {
   }
 
   border-radius: $small_radius;
-  min-height: 24px;
-  min-width: 24px;
+  min-height: 30px;
+  min-width: 30px;
   padding: 2px;
 
   &:not(.close):not(.appmenu) {

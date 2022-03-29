@@ -142,6 +142,7 @@
 	"file_history":
 	[
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-colors.scss",
+		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-drawing.scss",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-2.0/assets-external.txt",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-4.0/_colors.scss",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/gtk.css",
@@ -165,7 +166,6 @@
 		"/home/vdmuller/.local/share/applications/dbeaver-ce.desktop",
 		"/home/vdmuller/.local/share/applications/spring-tool-suite.desktop",
 		"/home/vdmuller/.local/share/applications/eclipse.desktop",
-		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_pop_os-drawing.scss",
 		"/home/vdmuller/Temas/pop-theme/gtk/src/light/gtk-3.0/_ubuntu-colors.scss",
 		"/home/vdmuller/Temas/Colloid-gtk-theme/build.sh",
 		"/home/vdmuller/Temas/Colloid-gtk-theme/src/sass/gtk/apps/_gnome-3.0.scss",
@@ -288,6 +288,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"titlebutton",
+			"maximize",
+			"control",
+			"stackswitcher\n",
+			"stackswitcher",
+			"headerbar",
+			"min-height",
+			"_headerbar_height",
 			"yaru_headerbar_fill",
 			"headerbar_fill",
 			"top_hilight",
@@ -407,15 +415,7 @@
 			"button",
 			"buton",
 			"headerbar",
-			"header",
-			"check",
-			"'round'",
-			"$menu",
-			"2b2b",
-			"menu",
-			"menu separator",
-			"_dark_theme_outer_menu_border",
-			"notebook > header"
+			"header"
 		],
 		"highlight": true,
 		"in_selection": false,
